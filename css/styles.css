@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+button:focus, a:focus, input:focus, textarea:focus {
+    outline: none;
+}
+
+:root {
+    --millenial-pink: #F3CFC6;
+    --azul-pastel: #99CCFF;
+}
+
+body {
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: ease-in 0.5s;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.offcanvas-collapse {
+    position: fixed;
+    top: 56px;
+    bottom: 0;
+    left: -250px;
+    width: 250px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    transition: left 0.3s ease-in-out;
+    z-index: 1040;
+}
+
+.offcanvas-collapse.open {
+    left: 0;
+}
+
+.navbar-toggler {
+    background-color: #1c84c6;
+}
+
+.offcanvas-collapse {
+    padding: 0;
+}
+
+.offcanvas-collapse .navbar-nav {
+    font-size: 15px;
+}
+
+.offcanvas-collapse .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: solid #ccc 1px;
+}
+
+.offcanvas-collapse .navbar-nav .nav-item a {
+    color: black;
+}
+
+.offcanvas-collapse .offcanvas-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: solid #ccc 1px;
+    border-bottom: none;
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ebebeb;
+}
