@@ -17,3 +17,28 @@ $(document).ready(function () {
         }
     });
 });
+
+var backToTopBtn = document.getElementById("backToTopBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+        setTimeout(function() {
+            backToTopBtn.style.opacity = "1";
+        }, 10);
+    } else {
+        backToTopBtn.style.opacity = "0";
+        setTimeout(function() {
+            backToTopBtn.style.display = "none";
+        }, 400);
+    }
+}
+
+backToTopBtn.onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
