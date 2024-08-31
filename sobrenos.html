@@ -113,7 +113,19 @@
         <div class="collapse" id="collapseExample" style="transition: 0.3s ease;">
             <div class="card card-body alunosContainer" style="transform: none;">
 
+                <p style="font-weight: bold;">Clique no aluno para ver detalhes</p>
+
                 <div id="alunosContainer"></div>
+
+                <!-- Modal -->
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <img id="modalFoto" src="" alt="Foto do Aluno">
+                        <h2 id="modalNome"></h2>
+                        <p id="modalInfo"></p>
+                    </div>
+                </div>
 
             </div>
         </div>
