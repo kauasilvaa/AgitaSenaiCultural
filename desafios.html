@@ -12,7 +12,6 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/desafios.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +19,30 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
 </head>
+
+<style>
+    .accordion-button {
+        width: 100%;
+        transition: 0.3s;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    #ulDesafios li {
+        margin-bottom: 10px;
+    }
+
+    .accordion-button.collapsed .icon {
+        transform: rotate(-180deg);
+        transition: 0.3s ease-in;
+    }
+
+    .accordion-button .icon {
+        transition: 0.3s ease-in;
+    }
+</style>
 
 <body>
 
