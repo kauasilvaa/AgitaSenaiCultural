@@ -18,9 +18,10 @@
     flex: 1 1 calc(50% - 10px);
 }
 
-.images-container .card img {
+.card img {
     width: auto;
-    height: 150px;
+    height: 170px;
+    object-fit: cover;
 }
 
 .aluno {
