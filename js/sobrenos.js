@@ -3,7 +3,7 @@ let alunos = [
     { id: 2, nome: "Ana Clara", foto: "./img/alunos/NI.png", dataNascimento: "--/--/----" },
     { id: 3, nome: "Bruno Taváres", foto: "./img/alunos/bruno.jpg", dataNascimento: "30/10/2006" },
     { id: 4, nome: "Daniel de Souza", foto: "./img/alunos/daniel.jpg", dataNascimento: "21/05/2007" },
-    { id: 5, nome: "Davi Lucas", foto: "./img/alunos/NI.png", dataNascimento: "--/--/----" },
+    { id: 5, nome: "Davi Lucas", foto: "./img/alunos/davi.jpg", dataNascimento: "07/05/2007" },
     { id: 6, nome: "Emilly de Oliveira", foto: "./img/alunos/emilly.jpg", dataNascimento: "27/09/2006" },
     { id: 7, nome: "Gabriel Arruda", foto: "./img/alunos/gabriel.jpg", dataNascimento: "24/02/2006" },
     { id: 8, nome: "Gabrielle Milaré", foto: "./img/alunos/gabrielle.png", dataNascimento: "25/11/2006" },
